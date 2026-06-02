@@ -32,4 +32,4 @@ yt-dlp -f ba -x --audio-format mp3 -o "C:/Documents/%(title)s.%(ext)s" "https://
 
 
 ## ver 5 : 
-.\yt-dlp --cookies "K:\user-data\Downloads\cookies.txt" -f "bestvideo+bestaudio" -o "C:\Users\tool\Videos\yt-dlp/%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLHp64AVMIikpXHj1gqiJ7xTIPnrw1ZR8i
+.\yt-dlp --cookies "K:\user-data\Downloads\cookies.txt" -f "bestvideo+bestaudio" -o "C:\Users\tool\Videos\yt-dlp/%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLAYLIST_ID
