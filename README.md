@@ -1,5 +1,7 @@
 idea changed, 
-
++ install deno : winget install --id=DenoLand.Deno
++ install ffmpeg : winget install ffmpeg
++ install yt-dlp as .exe
 ---
 
 ## how about download video, then uploading them to web.archive or free hosting platform, then use a github site to have a digital backup
@@ -27,3 +29,7 @@ yt-dlp --cookies "C:\Users\Mohamed-Aymane\Videos\cookies.txt" -f "bestvideo+best
 ## ver4.1 (only audio)
 yt-dlp -f ba -x --audio-format mp3 "https://www.youtube.com/watch?v=ID"
 yt-dlp -f ba -x --audio-format mp3 -o "C:/Documents/%(title)s.%(ext)s" "https://www.youtube.com/watch?v=ID"
+
+
+## ver 5 : 
+.\yt-dlp --cookies "K:\user-data\Downloads\cookies.txt" -f "bestvideo+bestaudio" -o "C:\Users\tool\Videos\yt-dlp/%(playlist_index)s - %(title)s.%(ext)s" https://www.youtube.com/playlist?list=PLHp64AVMIikpXHj1gqiJ7xTIPnrw1ZR8i
